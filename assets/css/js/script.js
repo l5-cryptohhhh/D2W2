@@ -155,6 +155,7 @@ console.log(numeri.length);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const carrello = ['Penna', 'Quaderno', 'Zaino', 'Astuccio'];
+console.log(carrello);
 
 
 carrello.splice(1, 1);
@@ -175,7 +176,7 @@ console.log(carrello);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const prodotti = ['Penna', 'Quaderno', 'Zaino'];
-const cercato = 'Zaino';
+let cercato = 'Zaino';
 
 console.log(`${cercato} è in carrello: ${prodotti.includes(cercato)}`);
 
