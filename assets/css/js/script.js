@@ -244,6 +244,17 @@ for (let i = 0; i < product.length; i++) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const myNumbers2 = [1, 2, 3, 4, 5];
+const inverso = [];
+
+for (let i = myNumbers2.length; i >= 1; i--) {
+    inverso.push(myNumbers2[i - 1]);
+} 
+
+console.log(myNumbers2);
+console.log(inverso);
+
+
 
 
 
