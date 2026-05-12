@@ -184,7 +184,7 @@ const indice = prodotti.indexOf(cercato);
 if (indice !== -1) {
     console.log(`${cercato} in posizione: ${indice}`);
 } else {
-    console.log('Non in carrello');
+    console.log(`${cercato} Non in carrello`);
 }
 
 /* ESERCIZIO 11 — Lista utenti
