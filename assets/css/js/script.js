@@ -62,7 +62,7 @@ console.log(utente.indirizzo.cap);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const chiave = 'nome';
+let chiave = 'nome';
 
 console.log(persona[chiave]);
 
@@ -74,9 +74,9 @@ console.log(persona[chiave]);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const a = 13;
-const b = 24;
-const c = 19;
+let a = 13;
+let b = 24;
+let c = 19;
 
 if (a === b && b === c) {
     console.log('Pareggio');
@@ -98,14 +98,20 @@ if (a === b && b === c) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const totale = 45;
-const spedizione = 9.90;
+let totale = 45;
+let spedizione = 9.90;
 
 if (totale >= 50) {
     console.log(`Totale Carrello ${totale}$ - Spedizione gratuita - Totale finale: ${totale}$`);
 } else {
     console.log(`Totale carrello ${totale}$ - Spedizione ${spedizione}$ - Totale finale: ${totale + spedizione}$`);
 }
+
+const totaleCarrello = (totale >= 50) ? `Totale Carrello ${totale}$ - Spedizione gratuita - Totale finale: ${totale}$`:
+`Totale carrello ${totale}$ - Spedizione ${spedizione}$ - Totale finale: ${totale + spedizione}$`;
+
+console.log(totaleCarrello);
+
 
 
 
